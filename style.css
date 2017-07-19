@@ -6,17 +6,18 @@ body {
 }
 header {
 	line-height:1.5;
-  	height: 320px;
+	height: 320px;
 	background-attachment: scroll;
-  	background-position: 0 50%;
-  	background-repeat: no-repeat;
-  	background-size: cover;
+	background-position: 0 50%;
+	background-image: url("background_tiny.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #fff;
 	background-color: #1C1127;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica Neue", sans-serif; 
-    font-weight: 100;
+	font-family: "Helvetica Neue", sans-serif; 
+	font-weight: 100;
 }
 header h1, header h2 {
 	letter-spacing:0.05em;
@@ -129,7 +130,7 @@ footer#contact-me p#phone-number, footer#contact-me p#email {
 	}
 	header {
 		height:250px;
-  		background-position: 0 50%;
+		background-position: 0 50%;
 	}
 	header h2 {
 		font-size:1em;
@@ -142,6 +143,6 @@ footer#contact-me p#phone-number, footer#contact-me p#email {
 
 @media (min-width: 1288px) {
 	header {
-  		background-position: 0 46%;
+		background-position: 0 46%;
 	}
 }
