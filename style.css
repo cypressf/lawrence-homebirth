@@ -88,6 +88,10 @@ footer#contact-me p#phone-number, footer#contact-me p#email {
 	font-weight:100;
 }
 
+footer {
+	letter-spacing:0.05em;
+}
+
 @media (min-width: 1170px) {
 	aside, header h1, header h2, #main, footer h1, footer p {
 		box-sizing: border-box;
@@ -126,7 +130,9 @@ footer#contact-me p#phone-number, footer#contact-me p#email {
 @media (max-width: 430px) {
 	body {
 		line-height:1.4;
-		font-size:0.8em;
+	}
+	header h1, header h2, #main, footer h1, footer p, aside h1 {
+		margin: 0 15px;
 	}
 	header {
 		height:250px;
@@ -134,9 +140,10 @@ footer#contact-me p#phone-number, footer#contact-me p#email {
 	}
 	header h2 {
 		font-size:1em;
+		font-weight: 200;
 	}
 	footer#contact-me p#phone-number, footer#contact-me p#email {
-		font-size:1em;
+		font-size:1.5em;
 		font-weight:200;
 	}
 }
